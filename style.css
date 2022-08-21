@@ -1,45 +1,57 @@
-header{
+header {
     background-color: aqua;
     text-align: center;
 }
-.header-text{
+
+.header-text {
     margin-left: 20%;
     margin-right: 20%;
-    padding: 10%;   
+    padding: 10%;
 }
-.all-card{
+
+.all-card {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 20px;
-   
-    
+
+
 }
-.single-card{
+
+.single-card {
     text-align: center;
     border-radius: 20px;
-border-style: solid;
-border-color: black;
+    border-style: solid;
+    border-color: black;
     margin: 30px;
     padding-bottom: 20px;
 }
-.single-card img{
+
+.single-card img {
     width: 100%;
     border-radius: 20px;
 }
-.single-card ol{
-    text-align: left;
-    
 
+.ol-list{
+    text-align: left;
+    font-size: 30px;
 }
-.button{
+
+.button {
     width: 100px;
     height: 30px;
     background-color: aquamarine;
     border-radius: 30px;
 }
-.budget{
+
+.budget {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
+}
+footer{
+    background-color: silver;
+    text-align: center;
+    padding: 40px;
 }
